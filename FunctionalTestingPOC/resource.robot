@@ -1,9 +1,9 @@
 *** Settings ***
 Documentation       A resource file with keywords and variables for tests
 
-Library             lib/WebServiceMockLib.py
-Library             lib/SampleIntegrationAppLib.py
-Library             lib/DataBaseLib.py
+Library             testLibrary/WebServiceMockLib.py
+Library             testLibrary/SampleIntegrationAppLib.py
+Library             testLibrary/DataBaseLib.py
 Library             Collections
 
 *** Variables ***
